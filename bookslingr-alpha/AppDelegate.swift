@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window!.rootViewController = loginViewController;
             window!.makeKeyAndVisible();
         } else {
-            let protectedPage = mainStoryboard.instantiateViewControllerWithIdentifier("marketplaceView") as! MarketplaceViewController;
+            let protectedPage = mainStoryboard.instantiateViewControllerWithIdentifier("marketplaceView") as! MasterViewController;
             window!.rootViewController = protectedPage;
             window!.makeKeyAndVisible();
         }

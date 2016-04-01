@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MasterViewController: UIViewController {
+class MasterViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,13 +22,14 @@ class MasterViewController: UIViewController {
     }
     
 
-    override func viewDidAppear(animated: Bool) {
-        let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLoggedIn");
-        
-        if(!isUserLoggedIn)
-        {
-            self.performSegueWithIdentifier("loginView", sender: self);
-        }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
+    */
 
 }

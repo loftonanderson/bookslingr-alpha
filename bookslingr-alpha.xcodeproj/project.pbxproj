@@ -17,8 +17,7 @@
 		F14654FE1CAEE74400584DFC /* bookslingr_alphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14654FD1CAEE74400584DFC /* bookslingr_alphaUITests.swift */; };
 		F146550C1CAEF1D200584DFC /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146550B1CAEF1D200584DFC /* RegisterPageViewController.swift */; };
 		F146550E1CAEF24700584DFC /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146550D1CAEF24700584DFC /* LoginPageViewController.swift */; };
-		F14655101CAF0D2E00584DFC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146550F1CAF0D2E00584DFC /* MasterViewController.swift */; };
-		F14655121CAF15B600584DFC /* MarketplaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14655111CAF15B600584DFC /* MarketplaceViewController.swift */; };
+		F14655161CAF232A00584DFC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14655151CAF232A00584DFC /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,7 @@
 		F14654FF1CAEE74400584DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F146550B1CAEF1D200584DFC /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		F146550D1CAEF24700584DFC /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
-		F146550F1CAF0D2E00584DFC /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		F14655111CAF15B600584DFC /* MarketplaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketplaceViewController.swift; sourceTree = "<group>"; };
+		F14655151CAF232A00584DFC /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +114,7 @@
 				F14654E91CAEE74400584DFC /* Info.plist */,
 				F146550B1CAEF1D200584DFC /* RegisterPageViewController.swift */,
 				F146550D1CAEF24700584DFC /* LoginPageViewController.swift */,
-				F146550F1CAF0D2E00584DFC /* MasterViewController.swift */,
-				F14655111CAF15B600584DFC /* MarketplaceViewController.swift */,
+				F14655151CAF232A00584DFC /* MasterViewController.swift */,
 			);
 			path = "bookslingr-alpha";
 			sourceTree = "<group>";
@@ -273,10 +270,9 @@
 			files = (
 				F146550C1CAEF1D200584DFC /* RegisterPageViewController.swift in Sources */,
 				F14654E01CAEE74400584DFC /* SecondViewController.swift in Sources */,
-				F14655101CAF0D2E00584DFC /* MasterViewController.swift in Sources */,
+				F14655161CAF232A00584DFC /* MasterViewController.swift in Sources */,
 				F14654DC1CAEE74400584DFC /* AppDelegate.swift in Sources */,
 				F146550E1CAEF24700584DFC /* LoginPageViewController.swift in Sources */,
-				F14655121CAF15B600584DFC /* MarketplaceViewController.swift in Sources */,
 				F14654DE1CAEE74400584DFC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

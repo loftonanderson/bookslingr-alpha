@@ -44,10 +44,13 @@ class LoginPageViewController: UIViewController {
                 // Go to MarketPlace
                 performSegueWithIdentifier("toMarketplace", sender: nil)
                 
+            } else {
+                
+                // Alert that password is not found
             }
         } else {
-            NSUserDefaults.standardUserDefaults().setBool(true,forKey:"isUserLoggedIn");
-            NSUserDefaults.standardUserDefaults().synchronize();
+
+            // Alert that email is not found
         }
     }
 }
