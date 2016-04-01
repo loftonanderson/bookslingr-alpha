@@ -20,6 +20,14 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func logoutButtonTapped(sender: AnyObject) {
+        NSUserDefaults.standardUserDefaults().setBool(false,forKey:"isUserLoggedIn");
+        NSUserDefaults.standardUserDefaults().synchronize();
+        let loginViewController = self.storyboard!.instantiateViewControllerWithIdentifier("loginView") as! LoginPageViewController;
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate;
+        appDelegate.window?.rootViewController = loginViewController;
+        appDelegate.window?.makeKeyAndVisible();
+    }
 
 }
 

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  MarketplaceViewController.swift
 //  bookslingr-alpha
 //
 //  Created by Lofton Anderson on 4/1/16.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class MarketplaceViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +22,3 @@ class FirstViewController: UIViewController {
     }
 
 }
-
